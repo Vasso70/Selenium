@@ -1,0 +1,166 @@
+{
+  "id": "09142b20-e722-414e-b542-89c7a26f165a",
+  "version": "2.0",
+  "name": "Mirsushi",
+  "url": "https://tomsk.mirsushi.com",
+  "tests": [{
+    "id": "a160a6f2-2068-46c6-99e8-4e6f41eb1f9c",
+    "name": "Удиви меня за 999",
+    "commands": [{
+      "id": "a3a6f5c6-9afe-4629-9bd9-bc3a2f285945",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "084eae13-ca3c-43ca-8b53-84a67882e4b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1084x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc7ea1c7-4f32-4654-b3a8-346b07c05c5f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9105c588-c005-4e5b-9976-3520341dd1ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=surprise_amount",
+      "targets": [
+        ["id=surprise_amount", "id"],
+        ["name=surprise_amount", "name"],
+        ["css=#surprise_amount", "css:finder"],
+        ["xpath=//input[@id='surprise_amount']", "xpath:attributes"],
+        ["xpath=//form[@id='surprise-me-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9106cc67-3730-44a7-bd4b-3a3c1268223e",
+      "comment": "",
+      "command": "type",
+      "target": "id=surprise_amount",
+      "targets": [
+        ["id=surprise_amount", "id"],
+        ["name=surprise_amount", "name"],
+        ["css=#surprise_amount", "css:finder"],
+        ["xpath=//input[@id='surprise_amount']", "xpath:attributes"],
+        ["xpath=//form[@id='surprise-me-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "999"
+    }, {
+      "id": "6f4b31d7-2ecc-46ef-b12b-d0f4d37ced69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12 > .main-btn-small",
+      "targets": [
+        ["css=.col-xs-12 > .main-btn-small", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='surprise-me-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a427f2e7-dafc-4f45-9020-9660d0e82167",
+    "name": "Поиск",
+    "commands": [{
+      "id": "5e16be4d-c2ae-4a98-8ee8-6a853b946e74",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74ab6cb2-ef4d-42be-aafc-ce45b68bead6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1355x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6f0b25c-8312-49ae-b5aa-c4f4c2f65484",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Поиск",
+      "targets": [
+        ["linkText=Поиск", "linkText"],
+        ["css=.open-side-nav-search", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Поиск')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b558be58-30fb-4957-bda7-2c6404f28bce",
+      "comment": "",
+      "command": "click",
+      "target": "name=term",
+      "targets": [
+        ["name=term", "name"],
+        ["css=form > input", "css:finder"],
+        ["xpath=//input[@name='term']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9ee81ff-5b50-443d-81ff-e55c36a17278",
+      "comment": "",
+      "command": "type",
+      "target": "name=term",
+      "targets": [
+        ["name=term", "name"],
+        ["css=form > input", "css:finder"],
+        ["xpath=//input[@name='term']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "крабс"
+    }, {
+      "id": "b8330f0f-9b5b-49dd-88da-764573f58c45",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=term",
+      "targets": [
+        ["name=term", "name"],
+        ["css=form > input", "css:finder"],
+        ["xpath=//input[@name='term']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "da856413-d012-4eb9-b8f7-e5d1bef86469",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,37)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a65197bf-e888-4bfb-91a3-d261d274556e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lazyimg",
+      "targets": [
+        ["css=.lazyimg", "css:finder"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01efd90e-3982-4542-8f4b-aee6ef94464d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a160a6f2-2068-46c6-99e8-4e6f41eb1f9c"]
+  }],
+  "urls": ["https://tomsk.mirsushi.com/"],
+  "plugins": []
+}

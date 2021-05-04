@@ -1,0 +1,189 @@
+{
+  "id": "f59d9bbe-f946-41f6-8476-217c663691e8",
+  "version": "2.0",
+  "name": "Testlink",
+  "url": "http://testlink.it-online-school.ru",
+  "tests": [{
+    "id": "9ae4f9a9-c3d0-473f-85c0-c566f0b364ec",
+    "name": "Testlink",
+    "commands": [{
+      "id": "a6b1191a-8cd4-4a67-9251-740d002475b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59007f2a-5567-48ff-ac66-86c40f02140b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de285b68-6509-4139-9a2f-05cab21e566f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "238357c9-41f9-4374-8189-c3ec638c6863",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Редактировать тесты",
+      "targets": [
+        ["linkText=Редактировать тесты", "linkText"],
+        ["css=#testspecification_topics > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Редактировать тесты')]", "xpath:link"],
+        ["xpath=//div[@id='testspecification_topics']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'lib/general/frmWorkArea.php?feature=editTc')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редактировать тесты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a862762c-ff16-4568-be84-9290946ad196",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1f5f4aa-ce62-43df-bf43-ffe065e29342",
+      "comment": "",
+      "command": "click",
+      "target": "css=#extdd-24 > span",
+      "targets": [
+        ["css=#extdd-24 > span", "css:finder"],
+        ["xpath=//span[@id='extdd-24']/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5fb3456-c045-445c-8abb-2898873b5b6b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "910edb99-1e43-407f-9a14-4b30f5d3d921",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "067dfe2c-c27b-4ee3-84a9-63dea2e854cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(2)",
+      "targets": [
+        ["css=.clickable:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='Действия']", "xpath:img"],
+        ["xpath=//img[@onclick=\"javascript:toogleShowHide('tsuite_control_panel');\"]", "xpath:attributes"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d24375-4b6d-4bdd-8873-52a9b2ed7273",
+      "comment": "",
+      "command": "click",
+      "target": "id=create_tc",
+      "targets": [
+        ["id=create_tc", "id"],
+        ["name=create_tc", "name"],
+        ["css=#create_tc", "css:finder"],
+        ["xpath=//input[@id='create_tc']", "xpath:attributes"],
+        ["xpath=//div[@id='tsuite_control_panel']/fieldset[2]/form/input[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "275e0104-079c-4475-a3f1-16442d4a49d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=testcase_name",
+      "targets": [
+        ["id=testcase_name", "id"],
+        ["name=testcase_name", "name"],
+        ["css=#testcase_name", "css:finder"],
+        ["xpath=//input[@id='testcase_name']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Тест 1"
+    }, {
+      "id": "6df84dd3-ebf1-4c5d-ae4b-1a0e8266b087",
+      "comment": "",
+      "command": "click",
+      "target": "id=do_create_button",
+      "targets": [
+        ["id=do_create_button", "id"],
+        ["name=do_create_button", "name"],
+        ["css=#do_create_button", "css:finder"],
+        ["xpath=//input[@id='do_create_button']", "xpath:attributes"],
+        ["xpath=//form[@id='tc_new']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e65d90d-e4c1-4d14-81b4-2e0f6f718419",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a1d7326-006c-4f8a-b696-0298e0fe993b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf30c427-b3d6-464c-9cfe-bce4ba3ed5d7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea7f200-bc30-4f81-aba2-d8a67d536b22",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) img",
+      "targets": [
+        ["css=div:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Company logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "958d3d11-7da2-43a9-838b-8346284d23b9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ae4f9a9-c3d0-473f-85c0-c566f0b364ec"]
+  }],
+  "urls": ["http://testlink.it-online-school.ru/"],
+  "plugins": []
+}
