@@ -1,2 +1,2 @@
-# Selenium
-Autotest Selenium IDE for portfolio
+
+Автотест Selenium IDE для тестирования модуля «Поиск» на сайте https://mirsushi.com/ с запросом существущего товара.
